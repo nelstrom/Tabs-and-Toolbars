@@ -6,6 +6,11 @@ Ext.define('Sencha.view.Search', {
         iconCls: 'search',
         title: 'Search',
         html: 'placeholder text',
-        styleHtmlContent: true
+        styleHtmlContent: true,
+        items: [{
+            docked: 'top',
+            xtype: 'toolbar',
+            title: 'Search'
+        }]
     }
 });
