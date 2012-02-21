@@ -5,5 +5,7 @@ Ext.define('Sencha.view.Search', {
     config: {
         iconCls: 'search',
         title: 'Search',
+        html: 'placeholder text',
+        styleHtmlContent: true
     }
 });
