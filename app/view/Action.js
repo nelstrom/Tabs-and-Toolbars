@@ -10,7 +10,14 @@ Ext.define('Sencha.view.Action', {
         items: [{
             docked: 'top',
             xtype: 'toolbar',
-            title: 'Buttons'
+            title: 'Buttons',
+            items: [
+                {
+                    text: 'ping'
+                },{
+                    text: 'clear'
+                }
+            ]
         }]
     }
 });
