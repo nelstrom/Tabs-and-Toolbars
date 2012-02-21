@@ -2,7 +2,8 @@ Ext.define('Sencha.view.Action', {
     extend: 'Ext.Panel',
     xtype: 'actioncard',
     requires: [
-        'Sencha.view.buttonbar.Shapes'
+        'Sencha.view.buttonbar.Shapes',
+        'Sencha.view.buttonbar.Colors',
     ],
 
     config: {
@@ -24,7 +25,7 @@ Ext.define('Sencha.view.Action', {
                 }
             ]
         },{
-            xtype: 'buttonshapes'
+            xtype: 'buttoncolors'
         }]
     }
 });
