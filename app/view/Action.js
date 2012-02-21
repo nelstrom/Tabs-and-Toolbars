@@ -12,6 +12,14 @@ Ext.define('Sencha.view.Action', {
         iconCls: 'action',
         title: 'Action',
         items: [{
+            xtype: 'buttonshapes'
+        },{
+            xtype: 'buttoncolors'
+        },{
+            xtype: 'buttonshapecolors'
+        },{
+            xtype: 'buttoniconstyles'
+        },{
             docked: 'top',
             xtype: 'titlebar',
             title: 'Titlebars accomodate buttons and titles',
@@ -26,8 +34,6 @@ Ext.define('Sencha.view.Action', {
                     action:  'clearHomeBadge'
                 }
             ]
-        },{
-            xtype: 'buttoniconstyles'
         }]
     }
 });
