@@ -11,6 +11,11 @@ Ext.define('Sencha.view.Settings', {
         title: 'Settings',
         items: [
             {
+                docked: 'top',
+                xtype: 'toolbar',
+                title: 'Settings'
+            },
+            {
                 xtype: 'fieldset',
                 title: 'Details',
                 items: [
