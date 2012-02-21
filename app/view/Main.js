@@ -1,5 +1,23 @@
 Ext.define('Sencha.view.Main', {
-    extend: 'Ext.Panel',
+    extend: 'Ext.TabPanel',
 
-    config: {}
+    config: {
+        items: [
+            {
+                title: 'Home'
+            },
+            {
+                title: 'Search'
+            },
+            {
+                title: 'Action'
+            },
+            {
+                title: 'Settings'
+            },
+            {
+                title: 'More'
+            },
+        ]
+    }
 });
