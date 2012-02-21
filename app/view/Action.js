@@ -13,9 +13,11 @@ Ext.define('Sencha.view.Action', {
             title: 'Titlebars accomodate buttons and titles',
             items: [
                 {
-                    text: 'ping'
+                    text: 'ping',
+                    align: 'right'
                 },{
-                    text: 'clear'
+                    text: 'clear',
+                    align: 'left'
                 }
             ]
         }]
