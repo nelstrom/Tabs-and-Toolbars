@@ -4,12 +4,16 @@ Ext.define('Sencha.controller.Main', {
     config: {
         refs: {
             homeTabButton: 'tabbar button[title=home]',
+            clearButton:   'button[action=clearHomeBadge]',
             starButton:    'button[action=pingHomeBadge]'
         },
         control: {
+            clearButton: {
+                tap: 'clearHomeBadge'
+            },
             starButton: {
                 tap: 'incrementHomeBadge'
-            }
+            },
         }
     },
 
@@ -19,5 +23,9 @@ Ext.define('Sencha.controller.Main', {
             nextnumber = isNaN(badgenumber) ? 1 : badgenumber+1;
 
         hometab.setBadgeText(nextnumber);
+    },
+
+    clearHomeBadge: function() {
+        this.getHomeTabButton().setBadgeText("");
     }
 });
