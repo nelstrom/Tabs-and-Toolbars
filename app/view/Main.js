@@ -1,5 +1,8 @@
 Ext.define('Sencha.view.Main', {
     extend: 'Ext.TabPanel',
+    requires: [
+        'Sencha.view.Home'
+    ],
 
     config: {
         tabBar: {
@@ -13,11 +16,7 @@ Ext.define('Sencha.view.Main', {
             styleHtmlContent: true
         },
         items: [
-            {
-                title: 'Home',
-                iconCls: 'home',
-                badgeText: '1'
-            },
+            { xtype: 'homecard' },
             {
                 title: 'Search',
                 iconCls: 'search'
