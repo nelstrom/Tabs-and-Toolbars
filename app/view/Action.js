@@ -10,7 +10,7 @@ Ext.define('Sencha.view.Action', {
         items: [{
             docked: 'top',
             xtype: 'toolbar',
-            title: 'Buttons',
+            title: 'Toolbars can contain buttons and titles',
             items: [
                 {
                     text: 'ping'
