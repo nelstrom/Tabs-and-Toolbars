@@ -5,5 +5,4 @@ Ext.define('Sencha.controller.Main', {
         refs: {},
         control: {}
     }
-
 });
