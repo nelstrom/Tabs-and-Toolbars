@@ -1,12 +1,13 @@
 Ext.define('Sencha.view.Action', {
     extend: 'Ext.Panel',
     xtype: 'actioncard',
+    requires: [
+        'Sencha.view.buttonbar.Shapes'
+    ],
 
     config: {
         iconCls: 'action',
         title: 'Action',
-        html: 'placeholder text',
-        styleHtmlContent: true,
         items: [{
             docked: 'top',
             xtype: 'titlebar',
@@ -22,6 +23,8 @@ Ext.define('Sencha.view.Action', {
                     action:  'clearHomeBadge'
                 }
             ]
+        },{
+            xtype: 'buttonshapes'
         }]
     }
 });
