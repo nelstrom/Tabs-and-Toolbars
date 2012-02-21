@@ -6,6 +6,11 @@ Ext.define('Sencha.view.Action', {
         iconCls: 'action',
         title: 'Action',
         html: 'placeholder text',
-        styleHtmlContent: true
+        styleHtmlContent: true,
+        items: [{
+            docked: 'top',
+            xtype: 'toolbar',
+            title: 'Buttons'
+        }]
     }
 });
