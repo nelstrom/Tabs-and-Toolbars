@@ -15,7 +15,8 @@ Ext.define('Sencha.view.Main', {
         items: [
             {
                 title: 'Home',
-                iconCls: 'home'
+                iconCls: 'home',
+                badgeText: '1'
             },
             {
                 title: 'Search',
