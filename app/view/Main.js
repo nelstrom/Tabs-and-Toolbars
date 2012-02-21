@@ -15,10 +15,6 @@ Ext.define('Sencha.view.Main', {
                 pack: 'center'
             }
         },
-        defaults: {
-            html: 'placeholder text',
-            styleHtmlContent: true
-        },
         items: [
             { xtype: 'homecard' },
             { xtype: 'searchcard' },
