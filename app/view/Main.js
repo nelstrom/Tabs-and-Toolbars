@@ -14,19 +14,24 @@ Ext.define('Sencha.view.Main', {
         },
         items: [
             {
-                title: 'Home'
+                title: 'Home',
+                iconCls: 'home'
             },
             {
-                title: 'Search'
+                title: 'Search',
+                iconCls: 'search'
             },
             {
-                title: 'Action'
+                title: 'Action',
+                iconCls: 'action'
             },
             {
-                title: 'Settings'
+                title: 'Settings',
+                iconCls: 'settings'
             },
             {
-                title: 'More'
+                title: 'More',
+                iconCls: 'more'
             },
         ]
     }
