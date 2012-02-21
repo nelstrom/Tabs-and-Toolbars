@@ -4,6 +4,7 @@ Ext.define('Sencha.view.Main', {
         'Sencha.view.Home',
         'Sencha.view.Search'
         'Sencha.view.Action'
+        'Sencha.view.Settings'
     ],
 
     config: {
@@ -21,10 +22,7 @@ Ext.define('Sencha.view.Main', {
             { xtype: 'homecard' },
             { xtype: 'searchcard' },
             { xtype: 'actioncard' },
-            {
-                title: 'Settings',
-                iconCls: 'settings'
-            },
+            { xtype: 'settingscard' },
             {
                 title: 'More',
                 iconCls: 'more'
