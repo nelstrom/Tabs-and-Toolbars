@@ -5,6 +5,7 @@ Ext.define('Sencha.view.Action', {
         'Sencha.view.buttonbar.Shapes',
         'Sencha.view.buttonbar.Colors',
         'Sencha.view.buttonbar.ShapeColors',
+        'Sencha.view.buttonbar.IconStyles'
     ],
 
     config: {
@@ -26,7 +27,7 @@ Ext.define('Sencha.view.Action', {
                 }
             ]
         },{
-            xtype: 'buttonshapecolors'
+            xtype: 'buttoniconstyles'
         }]
     }
 });
