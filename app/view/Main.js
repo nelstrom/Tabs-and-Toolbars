@@ -2,9 +2,10 @@ Ext.define('Sencha.view.Main', {
     extend: 'Ext.TabPanel',
     requires: [
         'Sencha.view.Home',
-        'Sencha.view.Search'
-        'Sencha.view.Action'
-        'Sencha.view.Settings'
+        'Sencha.view.Search',
+        'Sencha.view.Action',
+        'Sencha.view.Settings',
+        'Sencha.view.More'
     ],
 
     config: {
@@ -23,10 +24,7 @@ Ext.define('Sencha.view.Main', {
             { xtype: 'searchcard' },
             { xtype: 'actioncard' },
             { xtype: 'settingscard' },
-            {
-                title: 'More',
-                iconCls: 'more'
-            },
+            { xtype: 'morecard' }
         ]
     }
 });
