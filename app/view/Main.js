@@ -1,7 +1,8 @@
 Ext.define('Sencha.view.Main', {
     extend: 'Ext.TabPanel',
     requires: [
-        'Sencha.view.Home'
+        'Sencha.view.Home',
+        'Sencha.view.Search'
     ],
 
     config: {
@@ -17,10 +18,7 @@ Ext.define('Sencha.view.Main', {
         },
         items: [
             { xtype: 'homecard' },
-            {
-                title: 'Search',
-                iconCls: 'search'
-            },
+            { xtype: 'searchcard' },
             {
                 title: 'Action',
                 iconCls: 'action'
