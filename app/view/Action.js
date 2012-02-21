@@ -5,5 +5,7 @@ Ext.define('Sencha.view.Action', {
     config: {
         iconCls: 'action',
         title: 'Action',
+        html: 'placeholder text',
+        styleHtmlContent: true
     }
 });
